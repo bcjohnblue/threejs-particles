@@ -1,22 +1,3 @@
-# Three.js template
+# Three.js particles
 
-#### [Online demo](https://codesandbox.io/p/devbox/github/bcjohnblue/threejs-template/tree/main/)
-
-## Techs
-
-- [threejs (v0.171.0)](https://threejs.org/)
-- [vite](https://cn.vitejs.dev/guide/)
-- [lil-gui](https://lil-gui.georgealways.com/)
-
-## Setup
-
-```bash
-# Install dependencies
-yarn install
-
-# Run local server
-yarn run dev
-
-# Build production
-yarn run build
-```
+此 Repo 為 [Three.js 中物體的遠近關係 (6) - 如何正確的渲染透明粒子？](https://bcjohnblue.github.io/blog/2025/05/04/three-js-中物體的遠近關係-6-如何正確的渲染透明粒子？/) 的範例程式碼，原始碼參考自 [Three.js journey - lesson particles](https://threejs-journey.com/)

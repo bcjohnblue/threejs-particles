@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { Camera, Renderer, Sizes, Time, Helpers, Debug } from './init';
+import { Camera, Renderer, Sizes, Time, Helpers } from './init';
 import { World } from './World';
 
 export class Experience {
@@ -11,7 +11,7 @@ export class Experience {
     this.scene = new THREE.Scene();
 
     this.helpers = new Helpers(this);
-    this.debug = new Debug(this);
+    // this.debug = new Debug(this);
 
     this.sizes = new Sizes();
     this.time = new Time();

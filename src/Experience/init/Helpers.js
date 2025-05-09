@@ -4,12 +4,12 @@ export class Helpers {
   constructor(experience) {
     this.experience = experience;
 
-    this.createHelpers();
+    // this.createHelpers();
   }
 
   createHelpers() {
     // Axes helper
-    this.axesHelper = new THREE.AxesHelper(5);
-    this.experience.scene.add(this.axesHelper);
+    // this.axesHelper = new THREE.AxesHelper(5);
+    // this.experience.scene.add(this.axesHelper);
   }
 }
